@@ -1,4 +1,4 @@
-float seconden=3600;
+float seconden=13000000;
 float minuten=60;
 float uren=24;
 float dagen=30;
@@ -11,4 +11,4 @@ println(uren);
 dagen=uren/60;
 println(dagen);
 jaren=dagen/60;
-println(seconden);
+println(jaren);
