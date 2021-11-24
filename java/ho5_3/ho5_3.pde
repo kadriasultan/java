@@ -1,7 +1,8 @@
-float gewicht=110;
-float lengte=1.8;
+float gewicht=100;
+float lengte=1.5;
 float bmi=0;
-String eenvariabele="“Met een gewicht van 110 kg en een lengte van 180 cm, is jouw BMI 34”.";
-println(eenvariabele);
+String zindeel1="Met een gewicht van ";
+String zindeel2= "KG en een lengte van";
+String zindeel3="IS JOUW BMI";
 bmi=gewicht/(lengte*lengte);
-println(round(bmi));
+println(zindeel1 + gewicht+" " + zindeel2+" "+lengte+" "+zindeel3+" "+round(bmi));
